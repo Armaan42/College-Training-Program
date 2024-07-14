@@ -1,0 +1,6 @@
+Data structures and algorithms are the building blocks of proagramming complex solution. Using DSA,  we can solve the complex solution.
+
+It tells you to choose algorithms based on the program's needs.
+C++ helps you in several factors such as memory management and time complexity instructions in an efficient manner and DSA with 
+C++ is a plus point.
+

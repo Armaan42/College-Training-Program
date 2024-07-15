@@ -1,0 +1,4 @@
+STL = Standard template library
+
+STL have container which is further divided into sequence container , Associative Container and container adapter
+

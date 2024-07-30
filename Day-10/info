@@ -1,0 +1,40 @@
+The major storage classes in C++ along with examples:
+
+1. auto:
+   - The `auto` storage class is the default storage class for local variables. It automatically allocates memory and initializes the variable.
+
+   - Example:
+     auto int num = 10;
+
+2. register:
+   - The `register` storage class is used to define local variables that should be stored in a register instead of RAM for faster access.
+
+   - Example:
+     register int count = 0;
+
+3. static:
+   - The `static` storage class is used to declare variables that are to retain their values between function calls.
+
+   - Example:
+     void increment() {
+         static int x = 0;
+         x++;
+         cout << "x is: " << x << endl;
+     }
+
+4. extern:
+   - The `extern` storage class is used to declare a global variable that is visible to all functions in a program file.
+
+   - Example:
+     extern int globalVar;
+
+5. mutable:
+   - The `mutable` storage class is used only with non-static class members to allow them to be modified even if the object is declared as const.
+
+   - Example:
+     class Example {
+     public:
+         mutable int value;
+     };
+
+These storage classes play a crucial role in defining the behavior and scope of variables and functions within a C++ program.
